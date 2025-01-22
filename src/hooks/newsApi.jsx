@@ -1,7 +1,7 @@
 import Api from 'src/api/AxiosInterceptors'
 import { GET_NEWS, SET_NEWS_VIEW, getLanguage } from 'src/utils/api'
 
-// let { id: language_id } = getLanguage()
+let { id: language_id } = getLanguage()
 export const getNewsApi = {
 
   getNews: requestData => {
